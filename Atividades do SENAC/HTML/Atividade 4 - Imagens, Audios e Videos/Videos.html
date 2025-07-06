@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+</head>
+<body>
+    <h1>Tag audio</h1>
+    <video width="320" height="240" controls>
+        <source src="midias/movie.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento vídeo.
+    </video>
+
+    <h1>Propaganda UPC</h1>
+    <p>A UPC é uma emprsa europeira com um superpacote para sua casa</p>
+    <video controls preload="metadata">
+        <source src="midias/video.ogg" type="video/ogg">
+        <source src="midias/audio.mp4" type="video/mp4"> 
+        <track label="English" kind="subtitles" srclang="en" src="midias/subtitles-en.vtt"></track>
+        <track label="Portugues" kind="subtitles" srclang="pt-BR" src="midias/subtitles-pt_br.vtt"></track>
+    </video>
+</body>
+</html>

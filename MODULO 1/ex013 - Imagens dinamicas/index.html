@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente acessar este site em dispositivos diferentes ou aumente e diminue o tamanho da tela do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto_m.png" type="image/png">
+        <img src="imagens/Foto_g.png" alt="Foto flexível">
+    </picture>
+
+    <h2>Reproduzindo Áudio</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Kids Playing.mp3" controls></audio>
+    <!-- MP3 WAV OGG -->
+    <p>Vamos adicionar de outra forma também </p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/perpetual paradigm - Lish Grooves.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não pode reproduzir áudios :( <a href="midia/perpetual paradigm - Lish Grooves.mp3">Clique aqui para baixa-lo</a></p>
+    </audio>
+</body>
+</html>

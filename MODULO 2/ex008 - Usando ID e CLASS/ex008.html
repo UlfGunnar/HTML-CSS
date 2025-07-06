@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando o ID com CSS</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            color: darkgreen;
+        }
+
+        /* 
+            Em HTML o id é igual o # para o CSS
+            Em html o class é igual o . para o CSS
+
+            ID é só usado em apenas uma única tag
+            o CLASS pode ser usado em várias
+        */
+
+        h1#principal {
+            text-align: center;
+            background-color: green;
+            color: white;
+        }
+
+        h2 {
+            color: rgb(120, 177, 34);
+        }
+
+        .basico {
+            color: rgb(120, 177, 34);
+
+        }
+
+        .intermediario {
+            color: yellow;
+        }
+
+        .avançado {
+            color: red;
+        }
+
+        .destaque {
+            background-color: rgb(156, 156, 5);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal">Criando sites com HTML e CSS</h1>
+    <h1>Aprendendo HTML</h1>
+    <h2 class="basico">HTML básico</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo sapiente saepe culpa odit enim facilis repellat nisi fugit quaerat voluptatem id, excepturi repellendus ipsam non cupiditate quae nam. <span class="basico">Architecto, minima.</span></p>
+    <h2 class="intermediario">HTML intermediário</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sit omnis, dolores in quod tempora, ea eligendi doloremque quisquam natus recusandae. Illum corporis itaque vel excepturi quia iste dolorum pariatur!</p>
+    <h2 class="avançado">HTML avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aut doloribus, provident odio nisi aliquid, ipsam blanditiis sint, inventore praesentium a? Natus nihil, nisi autem tempora non suscipit quam quaerat?</p>
+    <h1 class="destaque">Aprendendo CSS</h1>
+    <h2 class="basico">CSS básico</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat natus sint est quia rem. Molestiae quisquam consequatur a, officiis in ad mollitia natus ab! Optio accusamus quos esse consectetur earum?</p>
+    <h2 class="intermediario">CSS intermediário</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tenetur eligendi atque tempore voluptatibus aspernatur neque mollitia, ipsam voluptas inventore aperiam est dolores nam. Tenetur vero laborum natus magnam eum.</p>
+    <h2 class="avançado destaque">CSS avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et officiis excepturi nisi necessitatibus cupiditate sequi repudiandae odit ullam asperiores nobis, vel pariatur cum inventore! Voluptates rerum natus at recusandae aperiam?</p>
+</body>
+</html>
