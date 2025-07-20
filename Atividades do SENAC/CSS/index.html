@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Doação/Adoção de pets</h1>
+        <div>
+            <label for="text">Nome do doador/tutor</label>
+            <input type="text" name="text" id="text" placeholder="preencha com nome completo" required>
+        </div>
+        <div>
+            <label for="pwd">Senha de acesso</label>
+            <input type="password" name="pws" id="pws" placeholder="senha com 6 digitos" required>
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="digite um e-mail válido" required>
+        </div>
+        <div>
+            <label for="idade">Idade do pet (meses)</label>
+            <input type="number" name="idade" id="idade" min="0" max="48" step="6" value="0" required>
+        </div>
+        <div>
+            <label for="vacina">Vacinas</label>
+            <input type="checkbox" value="v8" name="vacina"> v8
+            <input type="checkbox" name="vacina" value="v10"> v10
+            <input type="checkbox" name="vacina" value="giardia"> giardia
+            <input type="checkbox" name="vacina" value="gripe"> gripe
+            <input type="checkbox" name="vacina" value="anti-rabica"> Antirábica
+        </div>
+        <div>
+            <label for="castracao">Castrado</label>
+            <input type="checkbox" name="castracao" value="sim" checked> sim
+            <input type="checkbox" name="castracao" value="nao"> não
+        </div>
+        <div>
+            <label for="tipo">Pet </label>
+            <select name="doacao" id="tipo">
+                <option value="docao" selected>Doação</option>
+                <option value="adocao">Adoção</option>
+            </select>
+        </div>
+        <div>
+            <label for="especie">Espécie</label>
+            <select name="especie" id="especie" multiple size="4">
+                <option value="none" selected>-- Selecione um ou mais --</option>
+                <optgroup label="Mamiferos">
+                    <option value="cao">Cão</option>
+                    <option value="gato">Gato</option>
+                    <option value="Hamster">Hamster</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="observacoes">Observações</label>
+            <textarea name="observacoes"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar Formulário">
+            <input type="reset" value="Limpar Formulário">
+        </div>
+    </form>
+</body>
+</html>
