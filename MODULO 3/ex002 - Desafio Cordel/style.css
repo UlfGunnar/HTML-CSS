@@ -6,11 +6,17 @@
     font-family: 'Sriracha';
     src: url('Fontes/Sriracha-Regular.ttf');
 }
- main {
+body {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-attachment: fixed; 
+}
+main {
     font-family: 'Sriracha';
-    line-height: 20px;
-    font-size: 22px;
-    margin: 100px 0px 0px 20px;
+    line-height: 4vw;
+    font-size: 3vw;
 }
 div#titulo {
     display: flex;
@@ -44,4 +50,17 @@ div > p > a {
 div > p > a:hover {
     text-decoration: underline;
 }
-        
+.container_branco {
+    background-color: rgb(255, 255, 255);
+    height: 570px; 
+    width: 100vw;
+    padding: 90px 0px 100px 30px;
+    margin-left: -7px;
+}
+.container_transp {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 400px;
+    margin: 110px 0px 0px 20px;
+    padding: 1px 0px 1px 5px;
+}
