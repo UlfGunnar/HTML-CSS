@@ -33,7 +33,7 @@ div#titulo {
 }
 div > h1 {
     font-family: 'Plump';
-    font-size: 7vw;
+    font-size: 7vw; 
     margin-bottom: 40px;
     padding-top: 1vw;
 }
