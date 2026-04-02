@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* Configurações em pé */
+
+body {
+    background-image: url(../imagens/walpaper_retrato.jpg);
+    background-position: center bottom;
+}
