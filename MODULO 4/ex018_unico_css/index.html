@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Querry</title>
+    <style>
+        /* Declarações gerais */
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(255, 46, 46);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: whitesmoke;
+            text-shadow: 2px 2px 0px #2333ff;
+            padding: 10px;
+        }
+        /* Declarações retrato */
+        @media screen and (orientation: portrait) {
+            body {
+                background-image: url(imagens/walpaper_retrato.jpg);
+                background-position: center bottom;
+            }
+        }
+
+        /* Declarações paisagem */
+        @media screen and (orientation: landscape) {
+            body {
+                background-image: url(imagens/walpaper_paisagem.jpg);
+                background-position: left bottom;
+            }   
+        }
+
+    </style>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>
